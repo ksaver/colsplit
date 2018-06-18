@@ -3,11 +3,9 @@
 # ~~~~~~~~~~~
 # colsplit.py
 # ~~~~~~~~~~~
-
 # Splits a text file in columns.
 # Example: ./colsplit.py -c 6 -s "," file.txt
 # View README.md for more info.
-# ksaver, 16.06.18
 
 import argparse
 import sys
