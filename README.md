@@ -9,7 +9,7 @@ There are several ways to achieve the same result using terminal commands, such 
 
 Not installing needed. Simply copy the script into some of your PATH's directories, such as /usr/local/bin, $HOME/bin, etc.
 
-	$ git clone [https://gitserver/username/colsplit.git]
+	$ git clone https://ks4v3r@bitbucket.org/ks4v3r/colsplit.git
 	$ cd colsplit
 	$ sudo cp colsplit.py /usr/local/bin
 
