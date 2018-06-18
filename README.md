@@ -93,7 +93,7 @@ By default *colsplit.py* uses the character "\t" (tab) to separate columns, but 
 
 We can redirect the standard output of other terminal programs to *colsplit.py*, using *pipes*. Let's say, we need to sort alfabetically the first 500 lines in the *rockyou.txt* file, and show in a format of 10 columns, comma separated only the first 100 sorted lines:
 
-	$ head -n 500 rockyou.txt | sort | head -n 100 | ./colsplit.py -c 10 -s',' -
+	$ head -n 500 rockyou.txt | sort | head -n 100 | colsplit.py -c 10 -s',' -
 	00000,000000,0123456,0123456789,101010,11111,111111,112233,121212,123123
 	123321,12345,123456,1234567,12345678,123456789,1234567890,12345678910,123456a,123654
 	123abc,131313,147258,147258369,159357,159753,222222,232323,246810,252525
