@@ -1,6 +1,6 @@
 # colsplit.py
 
-A simple script to format a text file into columns, by specifying the number of columns to show and the separator to use.
+A simple script to *split* a text file into columns, by specifying the number of columns to show and the separator to use.
 
 There are several ways to achieve the same result using terminal commands, such as awk, split, paste, etc. But the idea behind this small tool is to get an easiest way to accomplish that.
 
